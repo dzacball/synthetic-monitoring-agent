@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/prober/logger"
 	"github.com/dzacball/synthetic-monitoring-agent/internal/testhelper"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/prober/logger"
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
 	"github.com/prometheus/common/expfmt"

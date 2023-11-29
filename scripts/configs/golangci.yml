@@ -135,7 +135,7 @@ linters-settings:
     no-unaliased: true
     no-extra-aliases: true
     alias:
-      - pkg: github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring
+      - pkg: github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring
         alias: sm
       - pkg: github.com/prometheus/client_model/go
         alias: dto

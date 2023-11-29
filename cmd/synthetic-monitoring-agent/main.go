@@ -21,17 +21,17 @@ import (
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/grpc/grpclog"
 
-	"github.com/grafana/synthetic-monitoring-agent/internal/adhoc"
-	"github.com/grafana/synthetic-monitoring-agent/internal/checks"
-	"github.com/grafana/synthetic-monitoring-agent/internal/feature"
-	"github.com/grafana/synthetic-monitoring-agent/internal/http"
-	"github.com/grafana/synthetic-monitoring-agent/internal/k6runner"
-	"github.com/grafana/synthetic-monitoring-agent/internal/pusher"
-	pusherV1 "github.com/grafana/synthetic-monitoring-agent/internal/pusher/v1"
-	pusherV2 "github.com/grafana/synthetic-monitoring-agent/internal/pusher/v2"
-	"github.com/grafana/synthetic-monitoring-agent/internal/tenants"
-	"github.com/grafana/synthetic-monitoring-agent/internal/version"
-	"github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/adhoc"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/checks"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/feature"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/http"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/k6runner"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pusher"
+	pusherV1 "github.com/dzacball/synthetic-monitoring-agent/internal/pusher/v1"
+	pusherV2 "github.com/dzacball/synthetic-monitoring-agent/internal/pusher/v2"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/tenants"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/version"
+	"github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 
 const exitFail = 1

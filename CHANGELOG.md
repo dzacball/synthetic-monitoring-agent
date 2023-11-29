@@ -11,7 +11,7 @@
 - add k6 to docker image
 
 ### Fix
-- make the k6 runner timeout configurable ([#554](https://github.com/grafana/synthetic-monitoring-agent/issues/554))
+- make the k6 runner timeout configurable ([#554](https://github.com/dzacball/synthetic-monitoring-agent/issues/554))
 - add a `name` label to metrics
 - add k6 binary to release files
 
@@ -104,10 +104,10 @@
 <a name="v0.14.4"></a>
 ## [v0.14.4] - 2023-04-19
 ### Build
-- Don't expose drone secrets on PR builds ([#431](https://github.com/grafana/synthetic-monitoring-agent/issues/431))
+- Don't expose drone secrets on PR builds ([#431](https://github.com/dzacball/synthetic-monitoring-agent/issues/431))
 
 ### Fix
-- Use Go 1.20.3 to build Agent ([#430](https://github.com/grafana/synthetic-monitoring-agent/issues/430))
+- Use Go 1.20.3 to build Agent ([#430](https://github.com/dzacball/synthetic-monitoring-agent/issues/430))
 
 
 <a name="v0.14.3"></a>
@@ -131,7 +131,7 @@
 <a name="v0.14.0"></a>
 ## [v0.14.0] - 2023-01-09
 ### Feature
-- Support global IDs in checks and tenants ([#389](https://github.com/grafana/synthetic-monitoring-agent/issues/389))
+- Support global IDs in checks and tenants ([#389](https://github.com/dzacball/synthetic-monitoring-agent/issues/389))
 
 
 <a name="v0.13.0"></a>
@@ -170,13 +170,13 @@
 <a name="v0.11.0"></a>
 ## [v0.11.0] - 2022-11-17
 ### Fix
-- set up backoffer to adhoc handler ([#363](https://github.com/grafana/synthetic-monitoring-agent/issues/363))
+- set up backoffer to adhoc handler ([#363](https://github.com/dzacball/synthetic-monitoring-agent/issues/363))
 
 ### Grpc
-- Reduce size of objects in memory ([#368](https://github.com/grafana/synthetic-monitoring-agent/issues/368))
+- Reduce size of objects in memory ([#368](https://github.com/dzacball/synthetic-monitoring-agent/issues/368))
 
 ### Revert
-- handle connection state changes ([#366](https://github.com/grafana/synthetic-monitoring-agent/issues/366))
+- handle connection state changes ([#366](https://github.com/dzacball/synthetic-monitoring-agent/issues/366))
 
 
 <a name="v0.10.2"></a>
@@ -191,13 +191,13 @@
 <a name="v0.10.0"></a>
 ## [v0.10.0] - 2022-11-03
 ### Build
-- prevent invalid os/arch combinations ([#336](https://github.com/grafana/synthetic-monitoring-agent/issues/336))
+- prevent invalid os/arch combinations ([#336](https://github.com/dzacball/synthetic-monitoring-agent/issues/336))
 
 ### Fix
 - handle connection state changes
 
 ### Grpc
-- Send known checks to API on connect ([#351](https://github.com/grafana/synthetic-monitoring-agent/issues/351))
+- Send known checks to API on connect ([#351](https://github.com/dzacball/synthetic-monitoring-agent/issues/351))
 
 
 <a name="v0.9.4"></a>
@@ -234,10 +234,10 @@
 <a name="v0.8.2"></a>
 ## [v0.8.2] - 2022-04-26
 ### Feat
-- Add a metric for failure to publish data ([#280](https://github.com/grafana/synthetic-monitoring-agent/issues/280))
+- Add a metric for failure to publish data ([#280](https://github.com/dzacball/synthetic-monitoring-agent/issues/280))
 
 ### Fix
-- fix http status code parsing for publish ([#279](https://github.com/grafana/synthetic-monitoring-agent/issues/279))
+- fix http status code parsing for publish ([#279](https://github.com/dzacball/synthetic-monitoring-agent/issues/279))
 
 
 <a name="v0.8.1"></a>
@@ -280,11 +280,11 @@
 <a name="v0.6.0"></a>
 ## [v0.6.0] - 2022-01-27
 ### Chore
-- Cleanup old circleci config ([#255](https://github.com/grafana/synthetic-monitoring-agent/issues/255))
+- Cleanup old circleci config ([#255](https://github.com/dzacball/synthetic-monitoring-agent/issues/255))
 
 ### Feature
 - add /disconnect endpoint
-- trigger argo workflows on release ([#256](https://github.com/grafana/synthetic-monitoring-agent/issues/256))
+- trigger argo workflows on release ([#256](https://github.com/dzacball/synthetic-monitoring-agent/issues/256))
 
 
 <a name="v0.5.0"></a>
@@ -304,8 +304,8 @@
 ## [v0.4.0] - 2021-11-30
 ### Feature
 - add /ready endpoint for readiness probe
-- enable traceroute checks by default ([#241](https://github.com/grafana/synthetic-monitoring-agent/issues/241))
-- add log labels to log entries ([#240](https://github.com/grafana/synthetic-monitoring-agent/issues/240))
+- enable traceroute checks by default ([#241](https://github.com/dzacball/synthetic-monitoring-agent/issues/241))
+- add log labels to log entries ([#240](https://github.com/dzacball/synthetic-monitoring-agent/issues/240))
 
 
 <a name="v0.3.3"></a>
@@ -323,7 +323,7 @@
 <a name="v0.3.0"></a>
 ## [v0.3.0] - 2021-10-26
 ### Feature
-- add deprecated flag to probes ([#236](https://github.com/grafana/synthetic-monitoring-agent/issues/236))
+- add deprecated flag to probes ([#236](https://github.com/dzacball/synthetic-monitoring-agent/issues/236))
 
 
 <a name="v0.2.0"></a>
@@ -477,7 +477,7 @@
 - Add git-chglog configuration files
 
 ### Docs
-- update and add links ([#78](https://github.com/grafana/synthetic-monitoring-agent/issues/78))
+- update and add links ([#78](https://github.com/dzacball/synthetic-monitoring-agent/issues/78))
 
 ### Feature
 - Implement test to check metric changes
@@ -512,89 +512,89 @@
 <a name="v0.0.1"></a>
 ## v0.0.1 - 2020-06-24
 
-[Unreleased]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.19.1...HEAD
-[v0.19.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.19.0...v0.19.1
-[v0.19.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.18.3...v0.19.0
-[v0.18.3]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.18.2...v0.18.3
-[v0.18.2]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.18.1...v0.18.2
-[v0.18.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.18.0...v0.18.1
-[v0.18.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.17.3...v0.18.0
-[v0.17.3]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.17.2...v0.17.3
-[v0.17.2]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.17.1...v0.17.2
-[v0.17.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.17.0...v0.17.1
-[v0.17.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.16.5...v0.17.0
-[v0.16.5]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.16.4...v0.16.5
-[v0.16.4]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.16.3...v0.16.4
-[v0.16.3]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.16.2...v0.16.3
-[v0.16.2]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.16.1...v0.16.2
-[v0.16.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.16.0...v0.16.1
-[v0.16.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.15.0...v0.16.0
-[v0.15.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.14.5...v0.15.0
-[v0.14.5]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.14.4...v0.14.5
-[v0.14.4]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.14.3...v0.14.4
-[v0.14.3]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.14.2...v0.14.3
-[v0.14.2]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.14.1...v0.14.2
-[v0.14.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.14.0...v0.14.1
-[v0.14.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.13.0...v0.14.0
-[v0.13.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.12.1...v0.13.0
-[v0.12.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.12.0...v0.12.1
-[v0.12.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.11.2...v0.12.0
-[v0.11.2]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.11.1...v0.11.2
-[v0.11.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.11.0...v0.11.1
-[v0.11.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.10.2...v0.11.0
-[v0.10.2]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.10.1...v0.10.2
-[v0.10.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.10.0...v0.10.1
-[v0.10.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.9.4...v0.10.0
-[v0.9.4]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.9.3...v0.9.4
-[v0.9.3]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.9.2...v0.9.3
-[v0.9.2]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.9.1...v0.9.2
-[v0.9.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.9.0...v0.9.1
-[v0.9.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.8.2...v0.9.0
-[v0.8.2]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.8.1...v0.8.2
-[v0.8.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.8.0...v0.8.1
-[v0.8.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.7.1...v0.8.0
-[v0.7.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.7.0...v0.7.1
-[v0.7.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.6.3...v0.7.0
-[v0.6.3]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.6.2...v0.6.3
-[v0.6.2]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.6.1...v0.6.2
-[v0.6.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.6.0...v0.6.1
-[v0.6.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.5.0...v0.6.0
-[v0.5.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.4.1...v0.5.0
-[v0.4.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.4.0...v0.4.1
-[v0.4.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.3.3...v0.4.0
-[v0.3.3]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.3.2...v0.3.3
-[v0.3.2]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.3.1...v0.3.2
-[v0.3.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.3.0...v0.3.1
-[v0.3.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.2.0...v0.3.0
-[v0.2.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.1.5...v0.2.0
-[v0.1.5]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.1.4...v0.1.5
-[v0.1.4]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.1.3...v0.1.4
-[v0.1.3]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.1.2...v0.1.3
-[v0.1.2]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.1.1...v0.1.2
-[v0.1.1]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.1.0...v0.1.1
-[v0.1.0]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.26...v0.1.0
-[v0.0.26]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.25...v0.0.26
-[v0.0.25]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.24...v0.0.25
-[v0.0.24]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.23...v0.0.24
-[v0.0.23]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.22...v0.0.23
-[v0.0.22]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.21...v0.0.22
-[v0.0.21]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.20...v0.0.21
-[v0.0.20]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.19...v0.0.20
-[v0.0.19]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.18...v0.0.19
-[v0.0.18]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.17...v0.0.18
-[v0.0.17]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.16...v0.0.17
-[v0.0.16]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.15...v0.0.16
-[v0.0.15]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.14...v0.0.15
-[v0.0.14]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.13...v0.0.14
-[v0.0.13]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.12...v0.0.13
-[v0.0.12]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.11...v0.0.12
-[v0.0.11]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.10...v0.0.11
-[v0.0.10]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.9...v0.0.10
-[v0.0.9]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.8...v0.0.9
-[v0.0.8]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.7...v0.0.8
-[v0.0.7]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.6...v0.0.7
-[v0.0.6]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.5...v0.0.6
-[v0.0.5]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.4...v0.0.5
-[v0.0.4]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.3...v0.0.4
-[v0.0.3]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.2...v0.0.3
-[v0.0.2]: https://github.com/grafana/synthetic-monitoring-agent/compare/v0.0.1...v0.0.2
+[Unreleased]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.19.1...HEAD
+[v0.19.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.19.0...v0.19.1
+[v0.19.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.18.3...v0.19.0
+[v0.18.3]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.18.2...v0.18.3
+[v0.18.2]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.18.1...v0.18.2
+[v0.18.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.18.0...v0.18.1
+[v0.18.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.17.3...v0.18.0
+[v0.17.3]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.17.2...v0.17.3
+[v0.17.2]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.17.1...v0.17.2
+[v0.17.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.17.0...v0.17.1
+[v0.17.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.16.5...v0.17.0
+[v0.16.5]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.16.4...v0.16.5
+[v0.16.4]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.16.3...v0.16.4
+[v0.16.3]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.16.2...v0.16.3
+[v0.16.2]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.16.1...v0.16.2
+[v0.16.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.16.0...v0.16.1
+[v0.16.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.15.0...v0.16.0
+[v0.15.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.14.5...v0.15.0
+[v0.14.5]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.14.4...v0.14.5
+[v0.14.4]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.14.3...v0.14.4
+[v0.14.3]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.14.2...v0.14.3
+[v0.14.2]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.14.1...v0.14.2
+[v0.14.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.14.0...v0.14.1
+[v0.14.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.13.0...v0.14.0
+[v0.13.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.12.1...v0.13.0
+[v0.12.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.12.0...v0.12.1
+[v0.12.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.11.2...v0.12.0
+[v0.11.2]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.11.1...v0.11.2
+[v0.11.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.11.0...v0.11.1
+[v0.11.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.10.2...v0.11.0
+[v0.10.2]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.10.1...v0.10.2
+[v0.10.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.10.0...v0.10.1
+[v0.10.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.9.4...v0.10.0
+[v0.9.4]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.9.3...v0.9.4
+[v0.9.3]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.9.2...v0.9.3
+[v0.9.2]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.9.1...v0.9.2
+[v0.9.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.9.0...v0.9.1
+[v0.9.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.8.2...v0.9.0
+[v0.8.2]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.8.1...v0.8.2
+[v0.8.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.8.0...v0.8.1
+[v0.8.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.7.1...v0.8.0
+[v0.7.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.7.0...v0.7.1
+[v0.7.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.6.3...v0.7.0
+[v0.6.3]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.6.2...v0.6.3
+[v0.6.2]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.6.1...v0.6.2
+[v0.6.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.6.0...v0.6.1
+[v0.6.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.5.0...v0.6.0
+[v0.5.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.4.1...v0.5.0
+[v0.4.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.4.0...v0.4.1
+[v0.4.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.3.3...v0.4.0
+[v0.3.3]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.3.2...v0.3.3
+[v0.3.2]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.3.1...v0.3.2
+[v0.3.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.3.0...v0.3.1
+[v0.3.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.2.0...v0.3.0
+[v0.2.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.1.5...v0.2.0
+[v0.1.5]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.1.4...v0.1.5
+[v0.1.4]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.1.3...v0.1.4
+[v0.1.3]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.1.2...v0.1.3
+[v0.1.2]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.1.1...v0.1.2
+[v0.1.1]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.1.0...v0.1.1
+[v0.1.0]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.26...v0.1.0
+[v0.0.26]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.25...v0.0.26
+[v0.0.25]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.24...v0.0.25
+[v0.0.24]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.23...v0.0.24
+[v0.0.23]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.22...v0.0.23
+[v0.0.22]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.21...v0.0.22
+[v0.0.21]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.20...v0.0.21
+[v0.0.20]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.19...v0.0.20
+[v0.0.19]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.18...v0.0.19
+[v0.0.18]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.17...v0.0.18
+[v0.0.17]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.16...v0.0.17
+[v0.0.16]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.15...v0.0.16
+[v0.0.15]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.14...v0.0.15
+[v0.0.14]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.13...v0.0.14
+[v0.0.13]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.12...v0.0.13
+[v0.0.12]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.11...v0.0.12
+[v0.0.11]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.10...v0.0.11
+[v0.0.10]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.9...v0.0.10
+[v0.0.9]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.8...v0.0.9
+[v0.0.8]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.7...v0.0.8
+[v0.0.7]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.6...v0.0.7
+[v0.0.6]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.5...v0.0.6
+[v0.0.5]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.4...v0.0.5
+[v0.0.4]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.3...v0.0.4
+[v0.0.3]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.2...v0.0.3
+[v0.0.2]: https://github.com/dzacball/synthetic-monitoring-agent/compare/v0.0.1...v0.0.2

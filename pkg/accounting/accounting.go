@@ -6,7 +6,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	"github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 
 //go:generate ./generate-active-series-counts

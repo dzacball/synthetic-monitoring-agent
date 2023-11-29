@@ -2,7 +2,7 @@ style: github
 template: CHANGELOG.tpl.md
 info:
   title: CHANGELOG
-  repository_url: https://github.com/grafana/synthetic-monitoring-agent
+  repository_url: https://github.com/dzacball/synthetic-monitoring-agent
 options:
   commits:
     # filters:

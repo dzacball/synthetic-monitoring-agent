@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	"github.com/gogo/status"
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc/codes"
 )

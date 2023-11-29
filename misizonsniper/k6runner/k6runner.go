@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/prober/logger"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/prober/logger"
 	"github.com/go-logfmt/logfmt"
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"

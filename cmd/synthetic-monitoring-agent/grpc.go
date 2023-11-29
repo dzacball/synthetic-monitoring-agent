@@ -6,7 +6,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	"github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/insecure"

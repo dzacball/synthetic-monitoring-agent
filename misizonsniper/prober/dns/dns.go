@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/prober/logger"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/prober/logger"
 	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	"github.com/prometheus/blackbox_exporter/config"
 	bbeprober "github.com/prometheus/blackbox_exporter/prober"

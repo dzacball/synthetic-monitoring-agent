@@ -10,9 +10,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/grafana/synthetic-monitoring-agent/cmd/test-api/internal/db"
-	"github.com/grafana/synthetic-monitoring-agent/cmd/test-api/internal/grpc"
-	"github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	"github.com/dzacball/synthetic-monitoring-agent/cmd/test-api/internal/db"
+	"github.com/dzacball/synthetic-monitoring-agent/cmd/test-api/internal/grpc"
+	"github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	"github.com/rs/zerolog"
 	"golang.org/x/sync/errgroup"
 )
