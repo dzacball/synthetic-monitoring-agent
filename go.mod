@@ -1,4 +1,4 @@
-module github.com/grafana/synthetic-monitoring-agent
+module github.com/dzacball/synthetic-monitoring-agent
 
 go 1.21
 
