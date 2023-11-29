@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/pusher"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/pusher"
 	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 

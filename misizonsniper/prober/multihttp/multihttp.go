@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/k6runner"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/k6runner"
 	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/prober/logger"
 	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	"github.com/prometheus/client_golang/prometheus"

@@ -16,9 +16,9 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/feature"
-	"github.com/dzacball/synthetic-monitoring-agent/internal/pusher"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/feature"
 	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/prober/logger"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/pusher"
 	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 

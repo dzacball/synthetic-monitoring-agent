@@ -3,8 +3,8 @@ package loki
 import (
 	"context"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/pkg/logproto"
-	"github.com/dzacball/synthetic-monitoring-agent/internal/pkg/prom"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/pkg/logproto"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/pkg/prom"
 	"github.com/gogo/protobuf/proto"
 	"github.com/golang/snappy"
 )

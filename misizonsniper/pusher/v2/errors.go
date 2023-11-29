@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/pkg/prom"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/pkg/prom"
 )
 
 // errKind enum used to carry the category of a push error.

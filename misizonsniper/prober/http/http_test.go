@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/version"
 	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/prober/http/testserver"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/version"
 	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	"github.com/go-kit/log"
 	"github.com/prometheus/blackbox_exporter/config"

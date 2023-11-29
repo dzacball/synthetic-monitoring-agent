@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/k6runner"
-	"github.com/dzacball/synthetic-monitoring-agent/internal/model"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/k6runner"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/model"
 	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/prober/dns"
 	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/prober/http"
 	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/prober/icmp"

@@ -7,8 +7,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/rs/zerolog"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/model"
-	"github.com/dzacball/synthetic-monitoring-agent/internal/pusher"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/model"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/pusher"
 )
 
 const Name = "v2"

@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/pkg/prom"
-	"github.com/dzacball/synthetic-monitoring-agent/internal/version"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/pkg/prom"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/version"
 	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 

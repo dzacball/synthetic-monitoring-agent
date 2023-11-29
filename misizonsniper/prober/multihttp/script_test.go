@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dzacball/synthetic-monitoring-agent/internal/k6runner"
-	"github.com/dzacball/synthetic-monitoring-agent/internal/testhelper"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/k6runner"
+	"github.com/dzacball/synthetic-monitoring-agent/misizonsniper/testhelper"
 	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	kitlog "github.com/go-kit/kit/log" //nolint:staticcheck // TODO(mem): replace in BBE
 	"github.com/go-kit/log/level"
