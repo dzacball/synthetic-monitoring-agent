@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/grafana/synthetic-monitoring-agent/internal/pkg/prom"
-	"github.com/grafana/synthetic-monitoring-agent/internal/version"
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pkg/prom"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/version"
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 
 func ClientFromRemoteInfo(remote *sm.RemoteInfo) (*prom.ClientConfig, error) {

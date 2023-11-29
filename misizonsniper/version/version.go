@@ -7,7 +7,7 @@ import (
 	"runtime/debug"
 )
 
-const smHomepage = "https://github.com/grafana/synthetic-monitoring-agent"
+const smHomepage = "https://github.com/dzacball/synthetic-monitoring-agent"
 
 var (
 	version    = "unknown"

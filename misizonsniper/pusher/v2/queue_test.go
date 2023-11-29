@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/grafana/synthetic-monitoring-agent/internal/pusher"
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pusher"
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 
 func TestQueue(t *testing.T) {

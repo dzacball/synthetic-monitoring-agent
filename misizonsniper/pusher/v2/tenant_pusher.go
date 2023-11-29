@@ -13,10 +13,10 @@ import (
 	"github.com/prometheus/prometheus/prompb"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/grafana/synthetic-monitoring-agent/internal/model"
-	"github.com/grafana/synthetic-monitoring-agent/internal/pkg/logproto"
-	"github.com/grafana/synthetic-monitoring-agent/internal/pusher"
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/model"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pkg/logproto"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pusher"
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 
 // tenantPusher is in charge of pushing changes for a specific tenant.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	promconfig "github.com/prometheus/common/config"
 	"github.com/rs/zerolog"
 )

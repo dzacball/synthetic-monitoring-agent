@@ -7,7 +7,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/grafana/synthetic-monitoring-agent/internal/pkg/prom"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pkg/prom"
 )
 
 type FailNTimesPrometheusClient struct {

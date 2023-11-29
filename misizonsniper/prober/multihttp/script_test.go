@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/dzacball/synthetic-monitoring-agent/internal/k6runner"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/testhelper"
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	kitlog "github.com/go-kit/kit/log" //nolint:staticcheck // TODO(mem): replace in BBE
 	"github.com/go-kit/log/level"
-	"github.com/grafana/synthetic-monitoring-agent/internal/k6runner"
-	"github.com/grafana/synthetic-monitoring-agent/internal/testhelper"
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	"github.com/mccutchen/go-httpbin/v2/httpbin"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/rs/zerolog"

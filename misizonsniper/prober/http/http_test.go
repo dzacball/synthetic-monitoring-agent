@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/dzacball/synthetic-monitoring-agent/internal/prober/http/testserver"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/version"
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	"github.com/go-kit/log"
-	"github.com/grafana/synthetic-monitoring-agent/internal/prober/http/testserver"
-	"github.com/grafana/synthetic-monitoring-agent/internal/version"
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	"github.com/prometheus/blackbox_exporter/config"
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"

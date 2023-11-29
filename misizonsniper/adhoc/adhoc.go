@@ -16,14 +16,14 @@ import (
 	"google.golang.org/grpc/connectivity"
 	"google.golang.org/grpc/status"
 
-	"github.com/grafana/synthetic-monitoring-agent/internal/feature"
-	"github.com/grafana/synthetic-monitoring-agent/internal/k6runner"
-	"github.com/grafana/synthetic-monitoring-agent/internal/model"
-	"github.com/grafana/synthetic-monitoring-agent/internal/pkg/logproto"
-	"github.com/grafana/synthetic-monitoring-agent/internal/prober"
-	"github.com/grafana/synthetic-monitoring-agent/internal/pusher"
-	"github.com/grafana/synthetic-monitoring-agent/internal/version"
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/feature"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/k6runner"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/model"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pkg/logproto"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/prober"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pusher"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/version"
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 
 // Handler is in charge of retrieving ad-hoc checks from the

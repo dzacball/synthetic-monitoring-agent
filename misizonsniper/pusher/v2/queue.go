@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grafana/synthetic-monitoring-agent/internal/pkg/prom"
-	"github.com/grafana/synthetic-monitoring-agent/internal/pusher"
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pkg/prom"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pusher"
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 
 type queue struct {

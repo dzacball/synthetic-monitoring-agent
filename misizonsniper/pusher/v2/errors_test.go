@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/synthetic-monitoring-agent/internal/pkg/prom"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pkg/prom"
 )
 
 func TestParsePushError(t *testing.T) {

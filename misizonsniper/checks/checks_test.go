@@ -13,14 +13,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/grafana/synthetic-monitoring-agent/internal/feature"
-	"github.com/grafana/synthetic-monitoring-agent/internal/k6runner"
-	"github.com/grafana/synthetic-monitoring-agent/internal/model"
-	"github.com/grafana/synthetic-monitoring-agent/internal/prober"
-	"github.com/grafana/synthetic-monitoring-agent/internal/prober/logger"
-	"github.com/grafana/synthetic-monitoring-agent/internal/pusher"
-	"github.com/grafana/synthetic-monitoring-agent/internal/scraper"
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/feature"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/k6runner"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/model"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/prober"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/prober/logger"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pusher"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/scraper"
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 
 func TestNewUpdater(t *testing.T) {

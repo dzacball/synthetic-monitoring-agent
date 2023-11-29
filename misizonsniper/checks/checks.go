@@ -21,15 +21,15 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/grafana/synthetic-monitoring-agent/internal/feature"
-	"github.com/grafana/synthetic-monitoring-agent/internal/k6runner"
-	"github.com/grafana/synthetic-monitoring-agent/internal/model"
-	"github.com/grafana/synthetic-monitoring-agent/internal/pkg/logproto"
-	"github.com/grafana/synthetic-monitoring-agent/internal/pusher"
-	"github.com/grafana/synthetic-monitoring-agent/internal/scraper"
-	"github.com/grafana/synthetic-monitoring-agent/internal/version"
-	"github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/feature"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/k6runner"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/model"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pkg/logproto"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pusher"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/scraper"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/version"
+	"github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 
 type Error string

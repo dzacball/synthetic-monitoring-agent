@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	"github.com/go-kit/log"
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 	"github.com/prometheus/blackbox_exporter/config"
 	bbeprober "github.com/prometheus/blackbox_exporter/prober"
 	"github.com/prometheus/client_golang/prometheus"

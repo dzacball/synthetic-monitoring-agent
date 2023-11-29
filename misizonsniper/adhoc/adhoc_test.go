@@ -16,10 +16,10 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/grafana/synthetic-monitoring-agent/internal/feature"
-	"github.com/grafana/synthetic-monitoring-agent/internal/prober/logger"
-	"github.com/grafana/synthetic-monitoring-agent/internal/pusher"
-	sm "github.com/grafana/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/feature"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/prober/logger"
+	"github.com/dzacball/synthetic-monitoring-agent/internal/pusher"
+	sm "github.com/dzacball/synthetic-monitoring-agent/pkg/pb/synthetic_monitoring"
 )
 
 func TestNewHandler(t *testing.T) {
